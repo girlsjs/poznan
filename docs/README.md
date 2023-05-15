@@ -36,5 +36,4 @@ cover: ../assets/cover.png
 - opcjonalnie: author, date, category, cover
 
 
-Posty są sortowane automatycznie wg numerów chapterów
-```
+Posty są sortowane automatycznie wg numerów chapterów - zachowaj konwencję
