@@ -1,6 +1,5 @@
 ---
-title: JavaScript
-category: content
+title: 1. O JavaScript
 layout: post
 ---
 

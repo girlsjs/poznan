@@ -1,7 +1,7 @@
 ---
-title: Tips, Warnings, and Dangers
-author: Tao He
-date: 2022-06-30
+title: JavaScript
+author: girlsjs
+date: 2023-06-01
 category: content
 layout: post
 ---

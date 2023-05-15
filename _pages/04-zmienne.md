@@ -1,8 +1,5 @@
 ---
-title: Zmienne
-author: M
-date: 2022-06-30
-category: content
+title: 4. Zmienne
 layout: post
 ---
 

@@ -1,4 +1,7 @@
-## Szkielet projektu
+---
+title: 6. Szkielet projektu
+layout: post
+---
 
 Dość zapisywania zmiennych w konsoli, czas stworzyć ramy naszego projektu i zacząć pracować z prawdziwymi plikami!
 
@@ -44,7 +47,11 @@ W swoim folderze stwórz kolejny folder, tym razem o nazwie `js`. W nim utwórz 
 
 `<script src="js/app.js"></script>`
 
-Ale skąd będziemy wiedzieć, że nasz plik JS naprawdę jest dobrze podłączony? Musimy sprawdzić konsolę! W pliku `app.js` dodaj kod:
+Ale skąd będziemy wiedzieć, że nasz plik JS naprawdę jest dobrze podłączony? 
+
+**Musimy sprawdzić konsolę!**
+
+W pliku `app.js` dodaj kod:
 
 `console.log('działa!');`
 

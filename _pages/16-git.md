@@ -1,4 +1,8 @@
-## GIT
+---
+title: 16. GIT
+layout: post
+---
+
 
 GIT to narzędzie do kontrolowania zmian w projekcie.  Tworzy on historię i umożliwia sprawną współpracę między wieloma programistami. By korzystać z GITa warto poznań kilka pojęć:
 
@@ -50,6 +54,10 @@ GitHub oferuje także hosting Twoich stron.
 
 ### Zadanie:
 
-1. Stwórz na GitHub nową organizację.
+1. Stwórz na GitHub nową organizację lub repozytorium.
 2. Na podstawie instrukcji zamieszczonej na stronie: [https://pages.github.com/](https://pages.github.com/) zamieść stronę "Wyprawy Kosmiczne" na GitHub Pages. 
 3. Wyświetl nową stronę w przeglądarce.
+
+**Podpowiedź:**
+
+[O Github Pages krok po kroku](https://www.flynerd.pl/2018/02/opublikowac-strone-internetowa-github-pages-krok-kroku.html)

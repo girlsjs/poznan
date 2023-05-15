@@ -1,4 +1,7 @@
-## Let's make some magic!
+---
+title: 12. Let's make some magic! ✨ 
+layout: post
+---
 
 Spróbujmy nieco ożywić naszą naszą stronę i dodać jej trochę koloru.
 
@@ -299,5 +302,5 @@ setInterval(function() {
 }, 2000);
 ```
 
-Jest i magia!
+✨ Jest i magia! ✨ 
 

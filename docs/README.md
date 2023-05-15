@@ -6,6 +6,8 @@ Konfiguracja strony korzysta z Github Pages oraz generatora stron Jekyll (dostę
 
 Github Actions wykonują build & deploy w pliku `.github/jekyll-gh-pages.yml`. Dodatkowo ustawienia szablonu znajdują się w `_config.yml`. 
 
+Szablony jekyll: https://jekyllrb.com/docs/pages/
+
 Wszystkie dodatkowe informacje jak korzystać z szablonu znajdują się w pliku `THEME.md` w folderze docs.
 
 
@@ -13,7 +15,7 @@ Wszystkie dodatkowe informacje jak korzystać z szablonu znajdują się w pliku 
 
 W skrócie:
 
-Podręcznik dzieli się na Strony `_pages` i rozdziały warsztatów `_posts`.
+Podręcznik dzieli się na podstrony `_pages` - kolejne rozdziały warsztatów. 
 
 Wszystkie chaptery warsztatów muszą być w formacie **markdown** i być umieszczone w folderze `_posts`. Dodatkowo pliki muszą posiadać odpowiednią sformatowany nagłówek.
 

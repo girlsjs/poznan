@@ -1,7 +1,8 @@
 ---
-title: 03 Konsola przeglądarki
+title: 3. Konsola przeglądarki
 layout: post
 ---
+
 
 Na początku swojej przygody z językiem JavaScript warto zaprzyjaźnić się z konsolą przeglądarki. Jest to miejsce, gdzie jesteś w stanie szybko przetestować kod, ale też znaleźć informacje o błędach, które się pojawiły. W przeglądarce Chrome konsolę otwieramy za pomocą Ctrl+Shift+J, w Firefoxie Ctrl+Shift+K. W obu działa skrót F12 ;) Możesz też kliknąć prawym przyciskiem myszy w dowolnym miejscu otwartej strony, wybrać opcję "Zbadaj"/"Inspect", a potem przejść od zakładki "Console", gdy otworzą się narzędzia deweloperskie.  
 ![](/assets/Zrzut ekranu z 2018-01-02 13-58-24.png)

@@ -1,8 +1,11 @@
-## A jednak się kręci!
+---
+title: 13. A jednak się kręci! 🪐
+layout: post
+---
 
-Kopernik wstrzymał Słońce, ruszył Ziemię. My poruszymy wszystkie 9 planet!
+Kopernik wstrzymał Słońce, ruszył Ziemię. My poruszymy wszystkie 8 planet!
 
-Pobierzcie naszą paczkę: [LINK](https://drive.google.com/open?id=1YG7AicIuQw1oXcMtn5bSM8kqRJc2KY44)
+Pobierzcie naszą paczkę: [LINK](https://drive.google.com/file/d/1nbT2_pX-eKDJi1JIGvDzoB4Tr_rCfAjk/view)
 
 W środku znajdziecie plik index.html, main.js oraz main.css.
 

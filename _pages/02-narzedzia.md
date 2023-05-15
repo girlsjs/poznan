@@ -1,6 +1,5 @@
 ---
-title: 02 Narzędzia
-category: content
+title: 2. Narzędzia
 layout: post
 ---
 

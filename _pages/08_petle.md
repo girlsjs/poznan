@@ -1,4 +1,7 @@
-## Pętle
+---
+title: 8. Pętle
+layout: post
+---
 
 Załóżmy, że chcemy coś zrobić kilka razy, np. wysłać 5 takich samych wiadomości, albo nadać identyfikator 30 kolejnym książkom w naszym księgozbiorze. Robienie kilkukrotnie tej samej rzeczy jest mało optymalne. Dlatego możemy wykorzystać pętle. Żeby powtórzyć coś kilkukrotnie potrzebujemy licznika - by wiedzieć, w którym momencie jesteśmy i czy powinniśmy już skończyć, czy nadal powtarzać dany skrypt.
 
@@ -106,6 +109,7 @@ for (let i = 1; i <= 30; i += 1) {
 ### Zadanie:
 
 Wykorzystaj powyższą pętlę, by nadać id 50 książkom. Zapisz kod w swoim pliku JS.
+
 
 ### Pętla while
 

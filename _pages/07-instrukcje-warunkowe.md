@@ -1,4 +1,7 @@
-## Instrukcje warunkowe
+---
+title: 7. Instrukcje warunkowe
+layout: post
+---
 
 Niektóre wydarzenia dzieją się tylko wtedy, gdy zostanie spełniony jakiś warunek. Np. woda zacznie wrzeć, gdy osiągnie temperaturę 100 stopni, a drzwi otworzysz tylko wtedy, gdy masz pasujący klucz. Podobnie dzieje się w języku JavaScript - instrukcja warunkowa wykonuje wybrany kod, w zależności od tego czy wartość danego wyrażenia jest logiczną prawdą \(true\) czy logicznym fałszem \(false\).
 
@@ -95,9 +98,9 @@ Zauważ, że każdy przypadek kończy się słowem **break.** Break przerywa wyk
 
 Stwórz w swoim pliku JS zmienną o nazwie `weather` i przypisz do niej wartość "sun". Następnie, używając instrukcji `switch` spraw, aby w konsoli ukazał się następujący tekst:
 
-* gdy zmienna `weather` jest równa "sun" - "It's sunny!"
-* gdy zmienna `weather` jest równa "rain" = "It's raining!"
-* gdy zmienna `weather` jest równa "wind" = "It's windy!"
+* gdy zmienna `weather` jest równa "sun" - "It's sunny! 🌞"
+* gdy zmienna `weather` jest równa "rain" = "It's raining! 🌧️"
+* gdy zmienna `weather` jest równa "wind" = "It's windy! 🌬️"
 
 Teraz przypisz do zmiennej `weather` wartość "rain" i zobacz, jak zmienia się tekst w konsoli. To samo sprawdź przypisując do niej wartość "wind".
 

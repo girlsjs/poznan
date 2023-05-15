@@ -1,8 +1,13 @@
-## Co słychać na Marsie?
+---
+title: 15. Wyprawy kosmiczne
+layout: post
+---
 
 Programiści zmieniają świat. Ich praca jest niezbędna do eksploracji kosmosu. Spróbujmy i my :D
 
 Jako że nam nie udało się jeszcze nikogo wysłać w kosmos, skorzystamy z pomocy i zasobów NASA.
+
+## Co słychać na Marsie?
 
 Najpierw musimy zdobyć klucz dostępu. Zrobimy to tu: [https://api.nasa.gov/index.html\#apply-for-an-api-key](https://api.nasa.gov/index.html#apply-for-an-api-key).
 

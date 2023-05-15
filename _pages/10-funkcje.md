@@ -1,4 +1,7 @@
-## Funkcje
+---
+title: 10. Funkcje
+layout: post
+---
 
 Czasami chcemy wykonywać podobne rzeczy dla różnych wartości. Np. chcemy pomalować całe mieszkanie i musimy policzyć powierzchnię ścian dla każdego pokoju. Mamy pokoje o różnych wymiarach, ale samo liczenie będzie wyglądać dokładnie tak samo:
 

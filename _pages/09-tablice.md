@@ -1,4 +1,7 @@
-## Tablice
+---
+title: 9. Tablice
+layout: post
+---
 
 Zmienne, które dotychczas poznałaś, zawierały tylko jeden element - string, liczbę, czy wartość logiczną. Czasami jednak musimy skorzystać z całej listy danych. Do ich przechowywania służą nam tablice.
 

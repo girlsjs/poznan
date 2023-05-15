@@ -1,4 +1,7 @@
-## Jesteś obiektem
+---
+title: 14. Jesteś obiektem
+layout: post
+---
 
 ... bo wszystko jest obiektem ;\) To kolejny typ danych. Wygląda następująco:
 

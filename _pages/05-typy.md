@@ -1,4 +1,7 @@
-## Typy danych
+---
+title: 5. Typy
+layout: post
+---
 
 `sum` z wartością 99 to zmienna typu liczbowego \(**number**\). Oprócz liczb JS korzysta też z innych typów danych:
 
@@ -20,9 +23,12 @@ Na liczbach możemy wykonywać działania matematyczne. Służą nam do tego ope
 
 Załóżmy, że mamy następujące zmienne: 
 
-`let y = 8;`
+```js
+let y = 8;
 
-`let z = 4;`
+let z = 4;
+
+```
 
 |  | Operator | Równanie | Wynik |
 | :--- | :--- | :--- | :--- |
@@ -83,7 +89,7 @@ text_3.replace('Jack', 'Mary');
 
 W ten sposób zastąpimy pierwsze wystąpienie danego ciągu znaków \(w naszym przypadku 'Jack'\) nowym stringiem \('Mary'\).
 
-### Zadanie:
+### Zadanie
 
 Stwórz zmienną `hello` i przypisz do niej następujący tekst: "Hello, \[tu podaj swoje imię\]!". Następnie, korzystając z metody `replace`, spraw, aby tekst wyglądał tak: "Hello, JavaScript!".
 
