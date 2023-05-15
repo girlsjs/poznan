@@ -1,10 +1,9 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            girlsj.js Poznań
+longtitle:        girlsj.js Poznań
+author:           Monika Filipkowska, Rita Łyczywek
 description: >
-  Build Jekyll site with the GitBook style.
+  Poznan girls.js wyprawy Kosmiczne - materiał poznańskiego warsztatu girls.js
 
 version:          1.0
 gitbook_version:  3.2.3
