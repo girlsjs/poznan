@@ -11,7 +11,7 @@ W Twoim pliku JS zdefiniujemy następującą funkcję:
 
 ```js
 function getRandomColor() {
-    console.log(“Wylosujmy kolor!”)
+    console.log('Wylosujmy kolor!')
 }
 
 getRandomColor();
