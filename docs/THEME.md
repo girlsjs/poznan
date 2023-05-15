@@ -96,13 +96,6 @@ tracker:
   application_insights: "<YOUR APPLICATION INSIGHTS CONNECTION STRING>"
 ```
 
-## Disqus comments
-
-[Disqus](https://disqus.com/) comments can be enabled by adding the following configuration in `_config.yaml`:
-
-```yaml
-disqushandler: "<YOUR DISQUS SHORTNAME>"
-```
 
 ## Extra StyleSheet or Javascript elements
 

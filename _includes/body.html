@@ -19,10 +19,6 @@
                     {% endif %}
 
                     {{ content }}
-
-                    {%- if jekyll.environment != 'dev' and site.disqushandler -%}
-                        {%- include disqus.html -%}
-                    {%- endif -%}
                 </section>
             </div>
 
