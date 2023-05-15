@@ -11,4 +11,4 @@ Możesz pracować z dowolną ulubioną przeglądarką, jednak na potrzeby tego k
 
 ## Edytor tekstu
 
-Czyli narzędzie, w którym będziemy pisać kod. Możesz użyć nawet aplikacji notatnik (wbudowanej w Windows), jednak wygodniejszy będzie np. [Brackets](http://brackets.io/), [Sublime Text](http://www.sublimetext.com/3) lub [Atom](https://atom.io/).
+Czyli narzędzie, w którym będziemy pisać kod. Możesz użyć nawet aplikacji notatnik (wbudowanej w Windows), jednak wygodniejszy będzie np. [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text](http://www.sublimetext.com/3) lub [Atom](https://atom.io/).
