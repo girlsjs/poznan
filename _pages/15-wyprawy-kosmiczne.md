@@ -125,7 +125,7 @@ Wiemy już jakie jest zdjęcie dnia?
 
 ### Na podbój Marsa!
 
-Teraz zróbmy krok dalej. Sprawdźmy, co słychać na Marsie. Pomoże nam w tym łazik, który dzielnie fotografuje swoje dzienne przygody, a dane z tych wypraw znajdziecie pod tym linkiem: [https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api\_key=DEMO\_\_KEY](https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO__KEY)
+Teraz zróbmy krok dalej. Sprawdźmy, co słychać na Marsie. Pomoże nam w tym łazik, który dzielnie fotografuje swoje dzienne przygody, a dane z tych wypraw znajdziecie pod tym linkiem: [https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api\_key=DEMO\_KEY](https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY)
 
 Zobaczcie, że teraz czeka nad pod linkiem o wiele więcej obiektów, niż przed chwilą. Zróbmy z nich użytek!
 
