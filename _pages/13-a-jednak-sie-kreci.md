@@ -133,7 +133,7 @@ function goToSlide() {
 }
 ```
 
-Zastanówmy się, jaką wartość powinno przyjąć `length` , by pokazać drugi slajd. Jaką, by pokazać trzeci, a czwarty? Czy dostrzegasz jakąś ogólną zasadę?
+Zastanówmy się, jaką wartość powinno przyjąć `left` , by pokazać drugi slajd. Jaką, by pokazać trzeci, a czwarty? Czy dostrzegasz jakąś ogólną zasadę?
 
 Tak! Mnożymy `slideWidth` razy pozycję konkretnego slajdu!
 
@@ -193,27 +193,27 @@ Zróbmy analogicznie z `slideToPrev`.
 
 Kolejny krok to wywołanie obu funkcji podczas klikania na przyciski. Klikanie to wydarzenia \(eventy\), kóre odbywają się na stronie. Mogą być one wywołane prze użytkownika \(jak kliknięcie\), albo jakiś element na stronie. Wysłanie formularza, załadowanie obrazka, to też zdarzenie. Przykładowe zdarzenia na stronie to:
 
-| Zdarzenie | Opis: |
-| :--- | :--- |
-| blur | obiekt przestał być aktywny |
-| change | obiekt zmienił swoją zawartość \(np. pole formularza\) |
-| click | kliknięcie na obiekt |
-| dblclick | podwójne klikniecie na obiekt |
-| focus | wybrnie danego obiektu na stronie |
-| keydown | naciśniemy klawisz na klawiaturze |
-| input | w czasie trzymania klawisza |
-| keyUp | puścimy klawisz na klawiaturze |
-| load | gdy obiekt został załadowany \(może to być nawet cała strona\) |
-| mouseover | gdy kursor znalazł się na danym obiekcie |
-| mouseout | gdy kursor opuścił dany obiekt |
-| contextmenu | gdy kliknięto prawym klawiszem myszki i pojawiło się menu kontekstowe |
-| wheel | gdy kręcimy kółeczkiem myszki |
-| resize | gdy zmieniamy rozmiar okna przeglądarki |
-| select | gdy zawartość obiektu została zaznaczona |
-| submit | gdy formularz został wysłany |
-| unload | użytkownik opuszcza dana stronę |
-| animationstart | animacja css się zacznie |
-| animationend | animacja css się zacznie |
+| Zdarzenie      | Opis:                                                                 |
+| :------------- | :-------------------------------------------------------------------- |
+| blur           | obiekt przestał być aktywny                                           |
+| change         | obiekt zmienił swoją zawartość \(np. pole formularza\)                |
+| click          | kliknięcie na obiekt                                                  |
+| dblclick       | podwójne klikniecie na obiekt                                         |
+| focus          | wybrnie danego obiektu na stronie                                     |
+| keydown        | naciśniemy klawisz na klawiaturze                                     |
+| input          | w czasie trzymania klawisza                                           |
+| keyUp          | puścimy klawisz na klawiaturze                                        |
+| load           | gdy obiekt został załadowany \(może to być nawet cała strona\)        |
+| mouseover      | gdy kursor znalazł się na danym obiekcie                              |
+| mouseout       | gdy kursor opuścił dany obiekt                                        |
+| contextmenu    | gdy kliknięto prawym klawiszem myszki i pojawiło się menu kontekstowe |
+| wheel          | gdy kręcimy kółeczkiem myszki                                         |
+| resize         | gdy zmieniamy rozmiar okna przeglądarki                               |
+| select         | gdy zawartość obiektu została zaznaczona                              |
+| submit         | gdy formularz został wysłany                                          |
+| unload         | użytkownik opuszcza dana stronę                                       |
+| animationstart | animacja css się zacznie                                              |
+| animationend   | animacja css się zacznie                                              |
 
 Do śledzenia, czy dane wydarzenie miało miejsce posłuży nam metoda `addEventListener`
 
