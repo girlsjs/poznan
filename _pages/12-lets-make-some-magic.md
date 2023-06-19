@@ -35,7 +35,7 @@ Naszą drugą zmienną będzie kolor. Jej jedynym stałym elementem jest znak �
 var color = '#';
 ```
 
-Później bedziemy do niego dodawać losowe litery spośród tych zawartych w letters.
+Później będziemy do niego dodawać losowe litery spośród tych zawartych w letters.
 
 Funkcja getRandomColor\(\) powinna wyglądać teraz tak:
 
@@ -47,7 +47,7 @@ function getRandomColor() {
 }
 ```
 
-Teraz chcemy wyciągnąć z naszej zmiennej letter losowe litery i stworzyć z nich ciąg składający się z 6 znaków. Najłatwiej będzie więc 6-krotnie wyciągnąć z letters losowe znaki. Posłuży nam do tego pętla.
+Teraz chcemy wyciągnąć z naszej zmiennej letters losowe litery i stworzyć z nich ciąg składający się z 6 znaków. Najłatwiej będzie więc 6-krotnie wyciągnąć z letters losowe znaki. Posłuży nam do tego pętla.
 
 ```js
 function getRandomColor() {
@@ -84,7 +84,7 @@ My jednak chcemy wylosować liczbę całkowitą z przedziału 0-16. Pomnóżmy w
 Math.random()*16;
 ```
 
-Jesteśmy już bliżej. Teraz jednak potrzebujemy liczb całkowitych, nie ułamkowych. Tu z pomocą przychodzi nam kolejna metoda obiektu Math, floor\(\), która zaokroglą liczby do liczb całkowitych. Spróbujmy wpisać w konsoli:
+Jesteśmy już bliżej. Teraz jednak potrzebujemy liczb całkowitych, nie ułamkowych. Tu z pomocą przychodzi nam kolejna metoda obiektu Math, floor\(\), która zaokrągla liczby do liczb całkowitych. Spróbujmy wpisać w konsoli:
 
 ```js
 Math.floor(14.567);
@@ -205,7 +205,7 @@ getRandomColor();
 
 Mamy losowy kolor! Teraz musimy go przypisać do styli tekstu.
 
-By oddzielić poszczególne elementy strony używamy różnych znaczników. Przykładowo między znacznikami &lt;p&gt;&lt;/p&gt; zamieszczamy zawartość paragrafów. &lt;div&gt;&lt;/div&gt; to cały blok, czy też cała sekcja. &lt;table&gt;&lt;/table&gt; to oczywiście tabela. &lt;ul&gt;&lt;/ul&gt; to nieuporządkowana lista; &lt;ol&gt;&lt;/ol&gt; to lista uporządkowana \(ponumerowana\). &lt;li&gt;&lt;/li&gt; to poszczególne elementy listy. &lt;h1&gt;&lt;/h1&gt;, &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;, &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, &lt;h6&gt;&lt;/h6&gt; to nagłówki kolejnego stopnia. W niektórych elementach możemy zagnieżdzać kolejne. Niektóre z nich mogą wystąpić wielokrotnie na stronie. By móc się odwołać do konkretynch elementów nadajemy im id \(przypisane tylko do jednego elementu\) oraz klasę \(class\), którą moga dzielić różne elementy. Np.
+By oddzielić poszczególne elementy strony używamy różnych znaczników. Przykładowo między znacznikami &lt;p&gt;&lt;/p&gt; zamieszczamy zawartość paragrafów. &lt;div&gt;&lt;/div&gt; to cały blok, czy też cała sekcja. &lt;table&gt;&lt;/table&gt; to oczywiście tabela. &lt;ul&gt;&lt;/ul&gt; to nieuporządkowana lista; &lt;ol&gt;&lt;/ol&gt; to lista uporządkowana \(ponumerowana\). &lt;li&gt;&lt;/li&gt; to poszczególne elementy listy. &lt;h1&gt;&lt;/h1&gt;, &lt;h2&gt;&lt;/h2&gt;, &lt;h3&gt;&lt;/h3&gt;, &lt;h4&gt;&lt;/h4&gt;, &lt;h5&gt;&lt;/h5&gt;, &lt;h6&gt;&lt;/h6&gt; to nagłówki kolejnego stopnia. W niektórych elementach możemy zagnieżdżać kolejne. Niektóre z nich mogą wystąpić wielokrotnie na stronie. By móc się odwołać do konkretnych elementów nadajemy im id \(przypisane tylko do jednego elementu\) oraz klasę \(class\), którą mogą dzielić różne elementy. Np.
 
 ```
 <p id="magic" class="title">Let’s make some magic!</p>

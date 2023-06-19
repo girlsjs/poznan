@@ -11,7 +11,7 @@ Jak zdefiniować taką zmienną?
 var sum = 33 + 5;
 ```
 
-`var` to instrukcja, która definiuje zmienną. `sum` to nazwa naszej zmiennej. `33 + 5` to działanie, którego wynik będzi wartością naszej zmiennej. Kiedy w konsoli wpiszemy `var sum = 33 + 5;` a następnie wpiszemy `sum`, konsola zwróci nam 38. Od tej chwili dla języka JavaScript `sum` to to samo co `38`.
+`var` to instrukcja, która definiuje zmienną. `sum` to nazwa naszej zmiennej. `33 + 5` to działanie, którego wynik będzie wartością naszej zmiennej. Kiedy w konsoli wpiszemy `var sum = 33 + 5;` a następnie wpiszemy `sum`, konsola zwróci nam 38. Od tej chwili dla języka JavaScript `sum` to to samo co `38`.
 
 ### var
 

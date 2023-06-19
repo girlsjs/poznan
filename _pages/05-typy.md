@@ -5,7 +5,7 @@ layout: post
 
 `sum` z wartością 99 to zmienna typu liczbowego \(**number**\). Oprócz liczb JS korzysta też z innych typów danych:
 
-**string** - ciąg znaków. Są zapisywane w cudzysłowiu lub apostrofach, np. 'Programiści JS są super'
+**string** - ciąg znaków. Są zapisywane w cudzysłowie lub apostrofach, np. 'Programiści JS są super'
 
 **zmienna typu logicznego \(boolean\) **- true \(logiczna prawda\) lub false \(logiczny fałsz\)
 

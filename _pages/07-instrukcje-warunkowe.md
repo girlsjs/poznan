@@ -92,7 +92,7 @@ switch (language) {
 }
 ```
 
-Zauważ, że każdy przypadek kończy się słowem **break.** Break przerywa wykonywanie instrukcji switch. Oznacza to, że jeśli któryś ze wskazanych przypadków zostanie spełniony, dalsze porówniania nie będą już wykonywane. Jeżeli pominiemy to słowo, wówczas nawet przy pomyślnym przyrównaniu zostaną wykonane kolejne sprawdzenia. Naszą instrukcję switch kończy specjalny przypadek **default**, który będzie wybierany, gdy wszystkie inne przypadki będą błędne.
+Zauważ, że każdy przypadek kończy się słowem **break.** Break przerywa wykonywanie instrukcji switch. Oznacza to, że jeśli któryś ze wskazanych przypadków zostanie spełniony, dalsze porównania nie będą już wykonywane. Jeżeli pominiemy to słowo, wówczas nawet przy pomyślnym przyrównaniu zostaną wykonane kolejne sprawdzenia. Naszą instrukcję switch kończy specjalny przypadek **default**, który będzie wybierany, gdy wszystkie inne przypadki będą błędne.
 
 ### Zadanie:
 

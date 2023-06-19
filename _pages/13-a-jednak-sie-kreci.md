@@ -29,7 +29,7 @@ Jak możecie się domyślić, naszym zadaniem jest stworzenie karuzeli. Zaczniem
 
 Jeśli zrobicie to poprawnie, powinnyście zobaczyć rozgwieżdżone niebo.
 
-Czas dodać nasze style. Pomoże Wam w tym strona [https://www.w3schools.com/css/](https://www.w3schools.com/css/). Nie bójcie się również korzystać z wyszukiwarki Google. By dodać jakiś styl odwołujmy się do klas poszczególnych elementów. By to zrobić w plku CSS musimy zapisać:
+Czas dodać nasze style. Pomoże Wam w tym strona [https://www.w3schools.com/css/](https://www.w3schools.com/css/). Nie bójcie się również korzystać z wyszukiwarki Google. By dodać jakiś styl odwołujmy się do klas poszczególnych elementów. By to zrobić w pliku CSS musimy zapisać:
 
 ```css
 .nazwaKlasy {
@@ -91,7 +91,7 @@ Zostanie nam jeszcze jedna zmienna do zdefiniowania: `slide` dla pojedynczych el
 
 Zróbmy to ze wszystkimi elementami na stronie :\)
 
-Kolejny krok, to określenie, o jaką szerokość ma się przesuwać nasza “taśma”. Jak już wspomnieliśmy, jest to szerokość jednego slajdu. Spróbujmy więc “wyciągnąć” tę wartość. Wykorzystamy do tego właściwość `clientWidth` która zwraca szerokośc danego elementu. Spróbujmy:
+Kolejny krok, to określenie, o jaką szerokość ma się przesuwać nasza “taśma”. Jak już wspomnieliśmy, jest to szerokość jednego slajdu. Spróbujmy więc “wyciągnąć” tę wartość. Wykorzystamy do tego właściwość `clientWidth` która zwraca szerokość danego elementu. Spróbujmy:
 
 ```js
 var slideWidth = slide.clientWidth;
@@ -191,7 +191,7 @@ function slideToNext() {
 
 Zróbmy analogicznie z `slideToPrev`.
 
-Kolejny krok to wywołanie obu funkcji podczas klikania na przyciski. Klikanie to wydarzenia \(eventy\), kóre odbywają się na stronie. Mogą być one wywołane prze użytkownika \(jak kliknięcie\), albo jakiś element na stronie. Wysłanie formularza, załadowanie obrazka, to też zdarzenie. Przykładowe zdarzenia na stronie to:
+Kolejny krok to wywołanie obu funkcji podczas klikania na przyciski. Klikanie to wydarzenia \(eventy\), które odbywają się na stronie. Mogą być one wywołane przez użytkownika \(jak kliknięcie\), albo jakiś element na stronie. Wysłanie formularza, załadowanie obrazka, to też zdarzenie. Przykładowe zdarzenia na stronie to:
 
 | Zdarzenie      | Opis:                                                                 |
 | :------------- | :-------------------------------------------------------------------- |

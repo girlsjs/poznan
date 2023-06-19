@@ -66,9 +66,9 @@ function getPicture() {
 }
 ```
 
-Po uruchemieniu `fetch` zwraca nam Promise. Promise'y pozwalają nam kontrolować kolejność kodu. Jeżeli jakaś obietnica została spełniona zaczyna działaś kolejny kawałek kodu \(then\). Jeśli pod adresem `dataURL` coś się znajduje, uzyskujemy dostęp do odpowiedzi z tej strony i ją wyświetlamy.
+Po uruchomieniu `fetch` zwraca nam Promise. Promise'y pozwalają nam kontrolować kolejność kodu. Jeżeli jakaś obietnica została spełniona zaczyna działaś kolejny kawałek kodu \(then\). Jeśli pod adresem `dataURL` coś się znajduje, uzyskujemy dostęp do odpowiedzi z tej strony i ją wyświetlamy.
 
-Kolejny nowy elemeny to strzałki `=>`. Jest to prostszy zapis znanych nam funkcji. Nasza funkcja ma jeden argument \(`resp`\) i ten argument wyświetla w konsoli. Wywołajmy funkcję i spójrzmy na naszą konsolę. Mamy w niej odpowiedź z serwera. Zamieńmy ją na przyjaźniejszy format, np. json. Najczęściej dane w formacie JSON są pobierane z serwera jako tekst, a następnie przekształcane w obiekt. By przekształcić naszą odpowiedź z serwera dopiszmy do niej metodę `json()`.
+Kolejny nowy element to strzałki `=>`. Jest to prostszy zapis znanych nam funkcji. Nasza funkcja ma jeden argument \(`resp`\) i ten argument wyświetla w konsoli. Wywołajmy funkcję i spójrzmy na naszą konsolę. Mamy w niej odpowiedź z serwera. Zamieńmy ją na przyjaźniejszy format, np. json. Najczęściej dane w formacie JSON są pobierane z serwera jako tekst, a następnie przekształcane w obiekt. By przekształcić naszą odpowiedź z serwera dopiszmy do niej metodę `json()`.
 
 ```js
 function getPicture() {
@@ -207,7 +207,7 @@ function createGallery(dataList) {
 Wewnątrz funkcji za pomocą pętli stworzymy 9 obrazków i dodamy je do strony. W HTML obraz wyświetlamy za pomocą tagu `img`:
 
 ```markdown
-<img src="adres_obrazka" class="klasa/klasy" alt="co_sie_wyswietli_jesli pod danym adresem nie ma obrazka">
+<img src="adres_obrazka" class="klasa/klasy" alt="co się wyświetli jeśli pod danym adresem nie ma obrazka">
 ```
 
 Tak będzie on wyglądać w HTML. A jak to zrobić za pomocą JS? Zacznijmy od pętli, która będzie się powtarzać 9 razy:
@@ -263,7 +263,7 @@ function getMarsPicture() {
 }
 ```
 
-Mamy tu listę, którą będziemy wykorzystywać w funkcji `createGallery`. Wywołajmy więc `createGallery` z tym argumentem wewnątrz funckji `getMarsPicture`:
+Mamy tu listę, którą będziemy wykorzystywać w funkcji `createGallery`. Wywołajmy więc `createGallery` z tym argumentem wewnątrz funkcji `getMarsPicture`:
 
 ```js
 function getMarsPicture() {
@@ -290,7 +290,7 @@ function createGallery(dataList) {
 }
 ```
 
-Mamy 9 tablic, w których są nasze obiekty. A my przy każdej pętli potrzebujemy tylko 1 obiekt. Obiekt, którego indeks jest zgodny z naszym i dlatego wyświetlajmy tylko obiekty o indexie równym `i`:
+Mamy 9 tablic, w których są nasze obiekty. A my przy każdej pętli potrzebujemy tylko 1 obiekt. Obiekt, którego indeks jest zgodny z naszym i dlatego wyświetlajmy tylko obiekty o indeksie równym `i`:
 
 ```js
 function createGallery(dataList) {

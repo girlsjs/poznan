@@ -84,7 +84,7 @@ function powierzchniaMalowania(sciana1, sciana2, wysokosc) {
     var y = sciana2;
     var z = wysokosc;
     var szerScian = 2*x + 2*y;
-    var powScian = szer_scian * wysokosc;    
+    var powScian = szerScian * wysokosc;    
     var powSufitu = x * y;
     var powMalowania = powScian + powSufitu;
 

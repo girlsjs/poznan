@@ -51,7 +51,7 @@ Czasami w obiekcie może być inny obiekt:
     name: 'Natalia',
     age: 27,
     hobby: ['swimming', 'cycling', 'fantasy books'],
-    city: 'Poznan',
+    city: 'Poznań',
     family: {
         mom: 'Anna',
         dad: 'Paweł',

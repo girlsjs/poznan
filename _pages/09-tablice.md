@@ -6,7 +6,7 @@ layout: post
 Zmienne, które dotychczas poznałaś, zawierały tylko jeden element - string, liczbę, czy wartość logiczną. Czasami jednak musimy skorzystać z całej listy danych. Do ich przechowywania służą nam tablice.
 
 ```js
-let tablica = ["pomarancza", 34, true, "mandolina", 45 [67, 56, "czerwony"]];
+let tablica = ["pomarańcza", 34, true, "mandolina", 45 [67, 56, "czerwony"]];
 ```
 
 Tablicę tworzymy zapisując dane pomiędzy kwadratowymi nawiasami i oddzielając te elementy od siebie przecinkami. W tablicy możemy przechowywać różne typy danych: stringi, liczby, zmienne typu logicznego, a nawet inne listy.
@@ -14,7 +14,7 @@ Tablicę tworzymy zapisując dane pomiędzy kwadratowymi nawiasami i oddzielają
 Stwórzmy np. listę znajomych:
 
 ```js
-let friends = ["Michał", "Marta", "Mikolaj", "John", "Natalia", "Ania"];
+let friends = ["Michał", "Marta", "Mikołaj", "John", "Natalia", "Ania"];
 ```
 
 Aby wyświetlić element listy odwołujemy się do listy i pozycji danego elementu.
@@ -48,7 +48,7 @@ Do dodawania nowego elementu służy metoda **push**:
 friends.push('Kasia');
 
 console.log(friends);
->>> ["Michał", "Marta", "Mikolaj", "John", "Natalia", "Ania","Kasia"]
+>>> ["Michał", "Marta", "Mikołaj", "John", "Natalia", "Ania","Kasia"]
 ```
 
 Za jej pomocą dodajemy nowy element na końcu tablicy.
