@@ -197,7 +197,7 @@ function getRandomColor() {
         color += randomLetter;
     }
 
-    return "#" + color;
+    return color;
 }
 
 getRandomColor();
