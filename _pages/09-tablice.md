@@ -111,7 +111,7 @@ Zaczynam od pozycji 2, usuwam jeden element, żadnego nie dodaję.
 ```js
 let friends = ["Michał", "Marta", "Tomek", "John", "Natalia", "Ania","Kasia"];
 
-friends.splice(2, 0, "Patrycja");
+friends.splice(2, 1, "Patrycja");
 console.log(friends);
 >>> Michał, Marta, Patrycja, John, Natalia, Ania, Kasia,
 ```
