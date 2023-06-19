@@ -15,6 +15,7 @@ Najpierw stwórz plik `index.html` i wklej do niego następujący kod:
 <!DOCTYPE html>
 <html>
    <head>
+      <meta charset="UTF-8">
       <title>Girls.JS - Poznan</title>
    </head>
    <body>
