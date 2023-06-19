@@ -15,7 +15,7 @@ Wyliczamy powierzchnię sufitu: 6 × 5 = 30
 
 Dodajemy powierzchnię ścian i sufitu: 55 + 30 = 85
 
-I tak dla 7 różnych pomieszczeń w naszym domu. Ale możemy to skrócić. W końcu chodzi o to by zrobić coś takiego:
+I tak dla 7 różnych pomieszczeń w naszym domu. Ale możemy to skrócić. W końcu chodzi o to, by zrobić coś takiego:
 
 ```js
 let x = jedna_sciana;

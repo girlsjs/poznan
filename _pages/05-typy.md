@@ -7,11 +7,11 @@ layout: post
 
 **string** - ciąg znaków. Są zapisywane w cudzysłowie lub apostrofach, np. 'Programiści JS są super'
 
-**zmienna typu logicznego \(boolean\) **- true \(logiczna prawda\) lub false \(logiczny fałsz\)
+**zmienna typu logicznego \(boolean\)** - true \(logiczna prawda\) lub false \(logiczny fałsz\)
 
-**null **- czyli pusty obiekt
+**null** - czyli pusty obiekt
 
-**undefined **- wartość niezdefiniowana
+**undefined** - wartość niezdefiniowana
 
 Jak sprawdzić typ zmiennej? Służy do tego instrukcja `typeof`, np. `typeof sum`
 
@@ -56,7 +56,7 @@ let text3 = text_1 + ', ' + text_2 + '!'; // Hello, Jack!
 
 Stwórz zmienną `surname` i przypisz do niej swoje nazwisko. Następne zdefiniuj kolejną zmienną o nazwie `fullName` i spraw, by jej wartością były Twoje dwie wcześniejsze zmienne, czyli imię i nazwisko. Wypisz wartość zmiennej `fullName` w konsoli.
 
-**Do sprawdzenia długości tekstu służy właściwość **`length`
+**Do sprawdzenia długości tekstu służy właściwość** `length`
 
 ```js
 text_3.length; // 12
@@ -73,7 +73,7 @@ text_3.toLowerCase(); // hello, jack!
 
 Spraw, aby Twoje imię w zmiennej `name` było napisane wielkimi literami.
 
-**Kolejną metodą jest sprawdzanie pozycji podtekstu:**
+**Kolejną metodą jest sprawdzanie pozycji fragmentu tekstu:**
 
 ```js
 text_3.indexOf('Jack'); // 7

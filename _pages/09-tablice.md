@@ -17,7 +17,7 @@ Stwórzmy np. listę znajomych:
 let friends = ["Michał", "Marta", "Mikołaj", "John", "Natalia", "Ania"];
 ```
 
-Aby wyświetlić element listy odwołujemy się do listy i pozycji danego elementu.
+Aby wyświetlić element listy, odwołujemy się do listy i pozycji danego elementu.
 
 UWAGA!
 
@@ -31,7 +31,7 @@ console.log(friends[3]);
 >>> John
 ```
 
-W swoim pliku JS stwórz teraz tablicę o nazwie "group", która zawiera imiona wszystkich osób z grupą, z którą pracujesz na warsztacie. Następnie wypisz w konsoli imię pierwszej zapisanej osoby.
+W swoim pliku JS stwórz teraz tablicę o nazwie "group", która zawiera imiona wszystkich osób z grupy, z którą pracujesz na warsztatach. Następnie wypisz w konsoli imię pierwszej zapisanej osoby.
 
 Podobnie jak stringi, długość tablicy możemy ustalić dzięki właściwości **length**
 
@@ -48,7 +48,7 @@ Do dodawania nowego elementu służy metoda **push**:
 friends.push('Kasia');
 
 console.log(friends);
->>> ["Michał", "Marta", "Mikołaj", "John", "Natalia", "Ania","Kasia"]
+>>> ["Michał", "Marta", "Mikołaj", "John", "Natalia", "Ania", "Kasia"]
 ```
 
 Za jej pomocą dodajemy nowy element na końcu tablicy.
@@ -61,14 +61,14 @@ Możemy również nadpisać istniejący element tablicy o określonej pozycji:
 friends[2] = "Tomek";
 
 console.log(friends);
->>> ["Michał", "Marta", "Tomek", "John", "Natalia", "Ania","Kasia"]
+>>> ["Michał", "Marta", "Tomek", "John", "Natalia", "Ania", "Kasia"]
 ```
 
 Nadpisz ostatnio dodane do swojej tablicy imię innym. Raz jeszcze wypisz ostatnie imię w konsoli.
 
 Różne tablice możemy dodać do siebie. Stwórz tablicę z imionami przyjaciół z pracy i drugą z imionami przyjaciół z imprez.
 
-Aby stworzyć tablicę w której znajdą się imiona wszystkich Twoich przyjaciół użyjemy metody `concat`
+Aby stworzyć tablicę, w której znajdą się imiona wszystkich Twoich przyjaciół, użyjemy metody `concat`
 
 ```js
 let work_friends = ["Michał", "Marta", "Tomek", "John", "Natalia", "Ania","Kasia"];
@@ -124,7 +124,7 @@ Usuń teraz za pomocą `splice` pierwsze imię z tablicy "group" i w jego miejsc
 
 ### Wyszukiwanie elementu
 
-do wyszukiwania pozycji elementu służy metoda indexOf. Zwraca ona indeks danego elementu lub -1 jeśli go nie znajdzie
+Do wyszukiwania pozycji elementu służy metoda `indexOf`. Zwraca ona indeks danego elementu lub -1 jeśli go nie znajdzie
 
 ```js
 let friends = ["Michał", "Marta", "Tomek", "John", "Natalia", "Ania","Kasia"];
@@ -140,7 +140,7 @@ Korzystając z `indexOf()` sprawdź jaką pozycję ma Twoje imię w tablicy "gro
 
 ### Pętla po tablicy
 
-Pętla to doskonały sposób przechodzenia (iterowania) po elementach tablicy. Wykorzystajmy ją do wypisania naszych znajomych. Aby wypisać jakiś element tablicy określamy jego indeks:
+Pętla to doskonały sposób przechodzenia (iterowania) po elementach tablicy. Wykorzystajmy ją do wypisania naszych znajomych. Aby wypisać jakiś element tablicy, określamy jego indeks:
 
 ```js
 let friends = ["Michał", "Marta", "Tomek", "John", "Natalia", "Ania","Kasia"];
@@ -160,7 +160,7 @@ inicjacja licznika - pierwsza pozycja na liście ma index 0, więc zaczynamy lic
 
 koniec licznika - pętlę powtarzamy aż przejdzie po wszystkich elementach listy. Liczbę elementów określamy za pomocą właściwości `length`. Czyli powtarzamy pętlę, dopóki licznik jest mniejszy od liczby moich przyjaciół: `i < friends.length`
 
-powiększanie/zmniejszanie licznika - po każdej pętli idziemy do kolejnej osoby czyli zwiększamy licznika o 1,`i += 1;`
+powiększanie/zmniejszanie licznika - po każdej pętli idziemy do kolejnej osoby czyli zwiększamy licznika o 1, `i += 1;`
 
 ```js
 let friends = ["Michał", "Marta", "Tomek", "John", "Natalia", "Ania","Kasia"];
@@ -190,7 +190,7 @@ Używając pętli `for` spraw, aby w konsoli pojawił się napis witający na gi
 
 ### Zadanie:
 
-Wykorzystując pętlę znajdź wypisz wszystkie samogłoski ze zdania: 
+Wykorzystując pętlę znajdź i wypisz wszystkie samogłoski ze zdania: 
 
 "Nad rzeczką opodal krzaczka, mieszkała kaczka-dziwaczka, lecz zamiast trzymać się rzeczki, robiła piesze wycieczki."
 

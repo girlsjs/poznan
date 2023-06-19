@@ -13,7 +13,7 @@ let zmienna = {
 }
 ```
 
-Jak widzisz, przypomina tablicę. Z tym że w tablicy bardzo duże znaczenie ma kolejność elementów które się w niej znajdują. W przypadku obiektów kluczowe są... klucze ;\)
+Jak widzisz, przypomina tablicę. Z tym że w tablicy bardzo duże znaczenie ma kolejność elementów, które się w niej znajdują. W przypadku obiektów kluczowe są... klucze ;\)
 
 Gdyby przedstawić jakąś osobę jako obiekt, moglibyśmy to zrobić w następujący sposób:
 
@@ -25,7 +25,7 @@ let person = {
 }
 ```
 
-By odwołać się do jakiegoś elementu obiektu trzeba odwołać się do jego klucza, np.:
+By odwołać się do jakiegoś elementu obiektu, trzeba odwołać się do jego klucza, np.:
 
 ```js
 person.hobby;

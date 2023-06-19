@@ -17,7 +17,7 @@ var sum = 33 + 5;
 
 `var` pochodzi od angielskiego "variable" i oznacza zmienną. Każda definicja zmiennej składa się ze słówka `var`, za którym stoi nazwa danej zmiennej. Nazwy zmiennych mogą składać się z liter, cyfr i niektórych znaków specjalnych, zazwyczaj zaczynają się małą literą. Nazwy zmiennych powinny nam coś mówić. Tzn. nie nazywajmy zmiennych `xyz`, ale właśnie `sum`, `wynik` itp. Dzięki temu łatwiej będzie nam się odnaleźć w naszym kodzie.
 
-To, że do zmiennej przypisałyśmy daną wartość, nie znaczy, że musi ona na zawsze już być jej równa. Mamy możliwość nadpisania tej zmiennej, czyli przypisania jej nowej wartości. Wystarczy wpisać np. `sum = 99`. Od tej chwili dla języka JavaScript `sum` będzie oznaczało to samo co 99. Kiedy nadpisujemy wartość zmiennej, nie zapisujemy`var` przy jej nazwie. `var` używamy tylko przy definiowaniu zmiennej, czyli przy zapisaniu jej po raz pierwszy. Później już posługujemy się samą nazwą zmiennej.
+To, że do zmiennej przypisałyśmy daną wartość, nie znaczy, że musi ona na zawsze już być jej równa. Mamy możliwość nadpisania tej zmiennej, czyli przypisania jej nowej wartości. Wystarczy wpisać np. `sum = 99`. Od tej chwili dla języka JavaScript `sum` będzie oznaczało to samo co 99. Kiedy nadpisujemy wartość zmiennej, nie zapisujemy `var` przy jej nazwie. `var` używamy tylko przy definiowaniu zmiennej, czyli przy zapisaniu jej po raz pierwszy. Później już posługujemy się samą nazwą zmiennej.
 
 ### let i const®
 

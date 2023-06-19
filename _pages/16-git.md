@@ -34,11 +34,11 @@ Linux: Aplikacje → Akcesoria → Terminal
 
 * **git add origin adres\_repozytorium**, np. [https://github.com/username/moje-repozytorium.git](https://github.com/username/moje-repozytorium.git) - ustawia konkretny adres zdalnego repozytorium jako główne repozytorium
 
-* **git push origin master** - wysłanie zmian do brancha zdalnego
+* **git push origin master** - wysyła zmiany do brancha zdalnego
 
 * **git checkout nazwa\_brancha** - zmienia aktywny branch na wybrany przez użytkownika
 
-* **git pull** - pobranie zmian ze zdalnego repozytorium
+* **git pull** - pobiera zmiany ze zdalnego repozytorium
 
 ### Zadanie:
 

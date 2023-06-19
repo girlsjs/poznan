@@ -44,7 +44,7 @@ Zapisz plik `style.css` i odśwież Twój podgląd pliku `index.html` w przeglą
 
 ### Plik JavaScript
 
-W swoim folderze stwórz kolejny folder, tym razem o nazwie `js`. W nim utwórz plik `app.js`. To tutaj będziemy zapisywać nasz cały kod JavaScript, dzięki któremu na naszej stronie będzie się działa magia ;\) Aby podłączyć nasz skrypt do strony w HTML, przed zamknięciem znacznika &lt;/body&gt; wklej następującą linijkę:
+W swoim folderze stwórz kolejny folder, tym razem o nazwie `js`. W nim utwórz plik `app.js`. To tutaj będziemy zapisywać nasz cały kod JavaScript, dzięki któremu na naszej stronie będzie się działa magia ;\) Aby podłączyć nasz skrypt do strony w HTML, przed zamknięciem znacznika `</body>` wklej następującą linijkę:
 
 `<script src="js/app.js"></script>`
 

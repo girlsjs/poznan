@@ -3,7 +3,7 @@ title: 2. Narzędzia
 layout: post
 ---
 
-By zacząć pisać kod w języku JavaScript nie potrzeba nam wiele. Na początek wystarczy nam przeglądarka internetowa i edytor tekstu. Później przyda nam się też [node.js](https://nodejs.org/en/).
+By zacząć pisać kod w języku JavaScript, nie potrzeba nam wiele. Na początek wystarczy nam przeglądarka internetowa i edytor tekstu. Później przyda nam się też [node.js](https://nodejs.org/en/).
 
 ## Przeglądarka
 

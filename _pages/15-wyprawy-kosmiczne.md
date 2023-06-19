@@ -5,7 +5,7 @@ layout: post
 
 Programiści zmieniają świat. Ich praca jest niezbędna do eksploracji kosmosu. Spróbujmy i my :D
 
-Jako że nam nie udało się jeszcze nikogo wysłać w kosmos, skorzystamy z pomocy i zasobów NASA.
+Jako, że nam nie udało się jeszcze nikogo wysłać w kosmos, skorzystamy z pomocy i zasobów NASA.
 
 ## Co słychać na Marsie?
 
@@ -53,7 +53,7 @@ Na początek stworzymy zmienną z adresem URL, pod którym kryje się obiekt z n
 let dataURL = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY';
 ```
 
-Teraz stwórzmy funkcję `getPicture`. W jej wnętrzu napiszemy kod który będzie pobierał dane z adresu wskazanego pod `dataURL`. Posłuży nam do tego `fetch API` - narzędzie do dynamicznego pobierania danych. Jest to dość nowe rozwiązanie, obsługiwane przez nowe przeglądarki.
+Teraz stwórzmy funkcję `getPicture`. W jej wnętrzu napiszemy kod, który będzie pobierał dane z adresu wskazanego pod `dataURL`. Posłuży nam do tego `fetch API` - narzędzie do dynamicznego pobierania danych. Jest to dość nowe rozwiązanie, obsługiwane przez nowe przeglądarki.
 
 Spróbujemy po kolei:
 
@@ -66,7 +66,7 @@ function getPicture() {
 }
 ```
 
-Po uruchomieniu `fetch` zwraca nam Promise. Promise'y pozwalają nam kontrolować kolejność kodu. Jeżeli jakaś obietnica została spełniona zaczyna działaś kolejny kawałek kodu \(then\). Jeśli pod adresem `dataURL` coś się znajduje, uzyskujemy dostęp do odpowiedzi z tej strony i ją wyświetlamy.
+Po uruchomieniu `fetch` zwraca nam Promise. Promise'y pozwalają nam kontrolować kolejność kodu. Jeżeli jakaś obietnica została spełniona, zaczyna działać kolejny kawałek kodu \(`then`\). Jeśli pod adresem `dataURL` coś się znajduje, uzyskujemy dostęp do odpowiedzi z tej strony i ją wyświetlamy.
 
 Kolejny nowy element to strzałki `=>`. Jest to prostszy zapis znanych nam funkcji. Nasza funkcja ma jeden argument \(`resp`\) i ten argument wyświetla w konsoli. Wywołajmy funkcję i spójrzmy na naszą konsolę. Mamy w niej odpowiedź z serwera. Zamieńmy ją na przyjaźniejszy format, np. json. Najczęściej dane w formacie JSON są pobierane z serwera jako tekst, a następnie przekształcane w obiekt. By przekształcić naszą odpowiedź z serwera dopiszmy do niej metodę `json()`.
 
@@ -107,7 +107,7 @@ function getPicture() {
 }
 ```
 
-Jest i nasz url, który powinniśmy użyć jako argument w funkcji `changeBackground`:
+Jest i nasz url, który powinnyśmy użyć jako argument w funkcji `changeBackground`:
 
 ```js
 function getPicture() {
@@ -127,7 +127,7 @@ Wiemy już jakie jest zdjęcie dnia?
 
 Teraz zróbmy krok dalej. Sprawdźmy, co słychać na Marsie. Pomoże nam w tym łazik, który dzielnie fotografuje swoje dzienne przygody, a dane z tych wypraw znajdziecie pod tym linkiem: [https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api\_key=DEMO\_KEY](https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY)
 
-Zobaczcie, że teraz czeka nad pod linkiem o wiele więcej obiektów, niż przed chwilą. Zróbmy z nich użytek!
+Zobaczcie, że teraz czeka nad pod linkiem o wiele więcej obiektów niż przed chwilą. Zróbmy z nich użytek!
 
 Zacznijmy od przypisania naszego URLa do zmiennej:
 
@@ -149,7 +149,7 @@ function getMarsPicture() {
 }
 ```
 
-Wywołajmy funkcję i sprawdźmy, co dzieje się w konsoli. Mamy obiekt z kluczem `photos`\(to mogło chwilę potrwać, zanim coś pojawiło się w konsoli\). Sprawdźmy, co jest w środku, czyli pod kluczem `photos`:
+Wywołajmy funkcję i sprawdźmy, co dzieje się w konsoli. Mamy obiekt z kluczem `photos` \(to mogło chwilę potrwać, zanim coś pojawiło się w konsoli\). Sprawdźmy, co jest w środku, czyli pod kluczem `photos`:
 
 ```js
 function getMarsPicture() {
@@ -249,7 +249,7 @@ function createGallery(dataList) {
 
 Sprawdźmy naszą stronę.
 
-Brakuje naszych ścieżek do obrazków. Wróćmy do funkcji `getMarsPictures`. Mieliśmy tu tablicę z wieloma obiektami w środku, w których mieliśmy potrzebny nam `img_src`. Przypiszmy naszą tablicę do zmiennej:
+Brakuje naszych ścieżek do obrazków. Wróćmy do funkcji `getMarsPictures`. Miałyśmy tu tablicę z wieloma obiektami w środku, w których miałyśmy potrzebny nam `img_src`. Przypiszmy naszą tablicę do zmiennej:
 
 ```js
 function getMarsPicture() {
@@ -278,7 +278,7 @@ function getMarsPicture() {
 }
 ```
 
-Ok, ale co się kryje pod naszym `pictureList`? Sprawdźmy to za pomocą`console.log`. W funkcji `createGallery` wyświetlmy w konsoli nasz argument `dataList`. Teraz wywołajmy funkcję `getMarsPicture`. W niej wywołujemy też funkcję `createGallery`:
+Ok, ale co się kryje pod naszym `pictureList`? Sprawdźmy to za pomocą `console.log`. W funkcji `createGallery` wyświetlmy w konsoli nasz argument `dataList`. Teraz wywołajmy funkcję `getMarsPicture`. W niej wywołujemy też funkcję `createGallery`:
 
 ```js
 function createGallery(dataList) {
