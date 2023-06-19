@@ -19,7 +19,7 @@ Najpierw stwórz plik `index.html` i wklej do niego następujący kod:
       <title>Girls.JS - Poznan</title>
    </head>
    <body>
-      <h1>Hello, Girls.JS!</h1>
+      <h1>Let's make some magic here!</h1>
    </body>
 </html>
 ```
