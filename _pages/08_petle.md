@@ -3,7 +3,7 @@ title: 8. Pętle
 layout: post
 ---
 
-Załóżmy, że chcemy coś zrobić kilka razy, np. wysłać 5 takich samych wiadomości, albo nadać identyfikator 30 kolejnym książkom w naszym księgozbiorze. Robienie kilkukrotnie tej samej rzeczy jest mało optymalne. Dlatego możemy wykorzystać pętle. Żeby powtórzyć coś kilkukrotnie potrzebujemy licznika - by wiedzieć, w którym momencie jesteśmy i czy powinniśmy już skończyć, czy nadal powtarzać dany skrypt.
+Załóżmy, że chcemy coś zrobić kilka razy, np. wysłać 5 takich samych wiadomości, albo nadać identyfikator 30 kolejnym książkom w naszym księgozbiorze. Robienie kilkukrotnie tej samej rzeczy jest mało optymalne. Dlatego możemy wykorzystać pętle. Żeby powtórzyć coś kilkukrotnie potrzebujemy licznika - by wiedzieć, w którym momencie jesteśmy i czy powinnyśmy już skończyć, czy nadal powtarzać dany skrypt.
 
 Załóżmy, że chcemy w konsoli napisać pięć razy wiadomość "Cześć! Miło nam Cię powitać na girls.js!". Możemy to zrobić w ten sposób:
 
@@ -53,7 +53,7 @@ Licznik możemy też zmniejszać. Wiemy, że wiadomości ma być 5, więc możem
 
 start licznika - zaczynamy od 5 czyli `let i = 5;`
 
-koniec pętli - powtarzamy dopóki nie osiągniemy 0, czyli dopóki `i` jest większe od zera,`i > 0;`
+koniec pętli - powtarzamy dopóki nie osiągniemy 0, czyli dopóki `i` jest większe od zera, `i > 0;`
 
 zwiększanie/pomniejszanie licznika - każda pętla odlicza od pięciu w dół, czyli `i -= 1;`
 
@@ -80,7 +80,7 @@ console.log("id-6");
 console.log("id-30");
 ```
 
-Ale taki kod zająłby bardzo wiele miejsca. Wykorzystajmy więc pętle! Zauważmy, że tym razem powtarzamy tę samą czynność, jednak string który chcemy wyświetlić, zmienia się. Zwiększa się dokładnie o 1. Podobnie zachowuje się nasz licznik!
+Ale taki kod zająłby bardzo wiele miejsca. Wykorzystajmy więc pętle! Zauważmy, że tym razem powtarzamy tę samą czynność, jednak string, który chcemy wyświetlić, zmienia się. Zwiększa się dokładnie o 1. Podobnie zachowuje się nasz licznik!
 
 Sprawdź co się wydarzy, gdy spróbujesz wyświetlić w konsoli wartość naszego licznika \(to jest zmienna więc wystarczy wpisać jej nazwę\).
 
@@ -90,7 +90,7 @@ for (let i = 0; i < 30; i += 1){
 }
 ```
 
-Konsola wyświetliła nam liczby od 0 do 29. W końcu zaczynamy liczyć od 0 i powtarzamy kod dopóki jest mniejsze od 30. Gdy osiąga 30 zatrzymujemy pętlę. Musimy więc lekko przerobić naszą pętlę. Nasze id zaczyna się od 1, a powtarzamy pętlę, dopóki elementy są mniejsze **bądź równe** 30.
+Konsola wyświetliła nam liczby od 0 do 29. W końcu zaczynamy liczyć od 0 i powtarzamy kod dopóki jest mniejsze od 30. Gdy osiąga 30, zatrzymujemy pętlę. Musimy więc lekko przerobić naszą pętlę. Nasze id zaczyna się od 1, a powtarzamy pętlę, dopóki elementy są mniejsze **bądź równe** 30.
 
 ```js
 for (let i = 1; i <= 30; i += 1) {
@@ -98,7 +98,7 @@ for (let i = 1; i <= 30; i += 1) {
 }
 ```
 
-Super! Teraz dodajmy brakujący element id, czyli string "id-". Możemy do tego wykorzystać dodawanie. Kiedy dodajemy string do liczby JS zamienia całość na string!
+Super! Teraz dodajmy brakujący element id, czyli string "id-". Możemy do tego wykorzystać dodawanie. Kiedy dodajemy string do liczby JS, zamienia całość na string!
 
 ```js
 for (let i = 1; i <= 30; i += 1) { 

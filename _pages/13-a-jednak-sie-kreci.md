@@ -7,9 +7,9 @@ Kopernik wstrzymał Słońce, ruszył Ziemię. My poruszymy wszystkie 8 planet!
 
 Pobierzcie naszą paczkę: [LINK](https://drive.google.com/file/d/1nbT2_pX-eKDJi1JIGvDzoB4Tr_rCfAjk/view)
 
-W środku znajdziecie plik index.html, main.js oraz main.css.
+W środku znajdziecie plik `index.html`, `main.js` oraz `main.css`.
 
-Kiedy otworzycie plik index.html w przeglądarce zobaczycie 9 zdjęć planet.
+Kiedy otworzycie plik `index.html` w przeglądarce zobaczycie 9 zdjęć planet.
 
 Teraz zajrzyjmy do tego pliku w edytorze tekstu.
 
@@ -21,7 +21,7 @@ Nasze planety to elementy listy:
 </ul>
 ```
 
-Jak możecie się domyślić, naszym zadaniem jest stworzenie karuzeli. Zaczniemy od jej odpowiedniego ułożenia. Posłużą nam do tego style CSS które zamieścimy w pliku main.css. By podpiąć style do naszego pliku html musimy między tagami &lt;head&gt;&lt;/head&gt; dodać kolejny element:
+Jak możecie się domyślić, naszym zadaniem jest stworzenie karuzeli. Zaczniemy od jej odpowiedniego ułożenia. Posłużą nam do tego style CSS, które zamieścimy w pliku `main.css`. By podpiąć style do naszego pliku html musimy między tagami `<head></head>` dodać kolejny element:
 
 ```markdown
 <link rel="stylesheet" type="text/css" href="sciezka/do/pliku.css">
@@ -29,7 +29,7 @@ Jak możecie się domyślić, naszym zadaniem jest stworzenie karuzeli. Zaczniem
 
 Jeśli zrobicie to poprawnie, powinnyście zobaczyć rozgwieżdżone niebo.
 
-Czas dodać nasze style. Pomoże Wam w tym strona [https://www.w3schools.com/css/](https://www.w3schools.com/css/). Nie bójcie się również korzystać z wyszukiwarki Google. By dodać jakiś styl odwołujmy się do klas poszczególnych elementów. By to zrobić w plku CSS musimy zapisać:
+Czas dodać nasze style. Pomoże Wam w tym strona [https://www.w3schools.com/css/](https://www.w3schools.com/css/). Nie bójcie się również korzystać z wyszukiwarki Google. By dodać jakiś styl, odwołujmy się do klas poszczególnych elementów. By to zrobić w pliku CSS, musimy zapisać:
 
 ```css
 .nazwaKlasy {
@@ -91,7 +91,7 @@ Zostanie nam jeszcze jedna zmienna do zdefiniowania: `slide` dla pojedynczych el
 
 Zróbmy to ze wszystkimi elementami na stronie :\)
 
-Kolejny krok, to określenie, o jaką szerokość ma się przesuwać nasza “taśma”. Jak już wspomnieliśmy, jest to szerokość jednego slajdu. Spróbujmy więc “wyciągnąć” tę wartość. Wykorzystamy do tego właściwość `clientWidth` która zwraca szerokośc danego elementu. Spróbujmy:
+Kolejny krok, to określenie, o jaką szerokość ma się przesuwać nasza “taśma”. Jak już wspomnieliśmy, jest to szerokość jednego slajdu. Spróbujmy więc “wyciągnąć” tę wartość. Wykorzystamy do tego właściwość `clientWidth` która zwraca szerokość danego elementu. Spróbujmy:
 
 ```js
 var slideWidth = slide.clientWidth;
@@ -111,7 +111,7 @@ Kolejny krok to określenie, który slajd właśnie nam się wyświetla. Począt
 var currentIndex = 0;
 ```
 
-A co, gdy dotrzemy do ostatniego elementu? Powinniśmy wrócić do początku slajdu. Znajdźmy więc ostatni element. Najpierw określimy liczbę wszystkich elementów. Posłuży nam do tego właściwość length.
+A co, gdy dotrzemy do ostatniego elementu? Powinnyśmy wrócić do początku slajdu. Znajdźmy więc ostatni element. Najpierw określimy liczbę wszystkich elementów. Posłuży nam do tego właściwość length.
 
 ```js
 var slidesNumber = slide.length - 1;
@@ -119,11 +119,11 @@ var slidesNumber = slide.length - 1;
 
 Skąd wzięło się -1? `Slide.length` to liczba slajdów. Czyli 9. Jednak w JavaScript liczenie elementów zaczynamy od 0, a nie 1. Ostatni slajd nie będzie miał wartości 9 tylko 8.
 
-OK. Teraz czas na napisanie funkcji, które wprawi nasz układ słoneczny w ruch i przesunie całą karuzelę o odpowiednią szerokość. Wykorzystamy do tego style. Spróbujmy najpierw za pomocą CSSa przesunąć naszą karuzelę w lewo o jeden slajd, czyli 800px. Pomogą nam w tym właściwości `position`,` left` i `right`.
+OK. Teraz czas na napisanie funkcji, które wprawi nasz układ słoneczny w ruch i przesunie całą karuzelę o odpowiednią szerokość. Wykorzystamy do tego style. Spróbujmy najpierw za pomocą CSSa przesunąć naszą karuzelę w lewo o jeden slajd, czyli 800px. Pomogą nam w tym właściwości `position`, `left` i `right`.
 
-Gdy już się Wam uda wróćcie do pliku JS. Będziemy manipulować wartościami CSS za pomocą funkcji JavaScript.
+Gdy już się Wam uda, wróćcie do pliku JS. Będziemy manipulować wartościami CSS za pomocą funkcji JavaScript.
 
-Stwórzmy funkcję o nazwie `goToSlide()`Jej wynikiem ma być zmieniona wartość właściwości `left` naszej karuzeli. Ma ona wynieść tyle, by pokazać odpowiedni slajd. Mała podpowiedź - wykorzystamy do tego zmienną `slideWidth` i pozycję slajdu, który chcemy zobaczyć.
+Stwórzmy funkcję o nazwie `goToSlide()`. Jej wynikiem ma być zmieniona wartość właściwości `left` naszej karuzeli. Ma ona wynieść tyle, by pokazać odpowiedni slajd. Mała podpowiedź - wykorzystamy do tego zmienną `slideWidth` i pozycję slajdu, który chcemy zobaczyć.
 
 Zacznijmy od początku. Aby zmienić wartość `left` karuzeli wykorzystamy metodę `style.left`. Dzięki niej jesteśmy zmienić pozycję danego elementu w stosunku do jego lewej krawędzi.
 
@@ -133,13 +133,13 @@ function goToSlide() {
 }
 ```
 
-Zastanówmy się, jaką wartość powinno przyjąć `length` , by pokazać drugi slajd. Jaką, by pokazać trzeci, a czwarty? Czy dostrzegasz jakąś ogólną zasadę?
+Zastanówmy się, jaką wartość powinno przyjąć `left`, by pokazać drugi slajd. Jaką, by pokazać trzeci, a czwarty? Czy dostrzegasz jakąś ogólną zasadę?
 
 Tak! Mnożymy `slideWidth` razy pozycję konkretnego slajdu!
 
 Więc spróbujmy:
 
-Załóżmy, że zmienna `index` to pozycja naszego slajdu. Zdefiniujmy ją jako 3 \(pozycja 4 slajdu\).
+Załóżmy, że zmienna `index` to pozycja naszego slajdu. Zdefiniujmy ją jako 3 \(pozycja 4. slajdu\).
 
 ```js
 function goToSlide() {
@@ -191,29 +191,29 @@ function slideToNext() {
 
 Zróbmy analogicznie z `slideToPrev`.
 
-Kolejny krok to wywołanie obu funkcji podczas klikania na przyciski. Klikanie to wydarzenia \(eventy\), kóre odbywają się na stronie. Mogą być one wywołane prze użytkownika \(jak kliknięcie\), albo jakiś element na stronie. Wysłanie formularza, załadowanie obrazka, to też zdarzenie. Przykładowe zdarzenia na stronie to:
+Kolejny krok to wywołanie obu funkcji podczas klikania na przyciski. Klikanie to wydarzenia \(eventy\), które odbywają się na stronie. Mogą być one wywołane przez użytkownika \(jak kliknięcie\), albo jakiś element na stronie. Wysłanie formularza, załadowanie obrazka, to też zdarzenie. Przykładowe zdarzenia na stronie to:
 
-| Zdarzenie | Opis: |
-| :--- | :--- |
-| blur | obiekt przestał być aktywny |
-| change | obiekt zmienił swoją zawartość \(np. pole formularza\) |
-| click | kliknięcie na obiekt |
-| dblclick | podwójne klikniecie na obiekt |
-| focus | wybrnie danego obiektu na stronie |
-| keydown | naciśniemy klawisz na klawiaturze |
-| input | w czasie trzymania klawisza |
-| keyUp | puścimy klawisz na klawiaturze |
-| load | gdy obiekt został załadowany \(może to być nawet cała strona\) |
-| mouseover | gdy kursor znalazł się na danym obiekcie |
-| mouseout | gdy kursor opuścił dany obiekt |
-| contextmenu | gdy kliknięto prawym klawiszem myszki i pojawiło się menu kontekstowe |
-| wheel | gdy kręcimy kółeczkiem myszki |
-| resize | gdy zmieniamy rozmiar okna przeglądarki |
-| select | gdy zawartość obiektu została zaznaczona |
-| submit | gdy formularz został wysłany |
-| unload | użytkownik opuszcza dana stronę |
-| animationstart | animacja css się zacznie |
-| animationend | animacja css się zacznie |
+| Zdarzenie      | Opis:                                                                 |
+| :------------- | :-------------------------------------------------------------------- |
+| blur           | obiekt przestał być aktywny                                           |
+| change         | obiekt zmienił swoją zawartość \(np. pole formularza\)                |
+| click          | kliknięcie na obiekt                                                  |
+| dblclick       | podwójne klikniecie na obiekt                                         |
+| focus          | wybrnie danego obiektu na stronie                                     |
+| keydown        | naciśniemy klawisz na klawiaturze                                     |
+| input          | w czasie trzymania klawisza                                           |
+| keyUp          | puścimy klawisz na klawiaturze                                        |
+| load           | gdy obiekt został załadowany \(może to być nawet cała strona\)        |
+| mouseover      | gdy kursor znalazł się na danym obiekcie                              |
+| mouseout       | gdy kursor opuścił dany obiekt                                        |
+| contextmenu    | gdy kliknięto prawym klawiszem myszki i pojawiło się menu kontekstowe |
+| wheel          | gdy kręcimy kółeczkiem myszki                                         |
+| resize         | gdy zmieniamy rozmiar okna przeglądarki                               |
+| select         | gdy zawartość obiektu została zaznaczona                              |
+| submit         | gdy formularz został wysłany                                          |
+| unload         | użytkownik opuszcza dana stronę                                       |
+| animationstart | animacja css się zacznie                                              |
+| animationend   | animacja css się zacznie                                              |
 
 Do śledzenia, czy dane wydarzenie miało miejsce posłuży nam metoda `addEventListener`
 
@@ -261,7 +261,7 @@ function goToSlide(index) {
 
 Wszystko, co się dzieje zależy od indeksu. Zróbmy więc tak, by indeks większy od indeksu ostatniej planety wyniósł 0, a indeks mniejszy od indeksu pierwszej planety był równy indeksowi pierwszej.
 
-Posłużą nam do tego instrukcje warunkowe \(if... else\). Czyli, jeśli indeks jest mniejszy od 0 zmieniamy go na wartość `slidesNumber`
+Posłużą nam do tego instrukcje warunkowe \(`if... else`\). Czyli, jeśli indeks jest mniejszy od 0 zmieniamy go na wartość `slidesNumber`
 
 ```js
 function goToSlide(index) {

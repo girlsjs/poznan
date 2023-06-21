@@ -15,10 +15,11 @@ Najpierw stwórz plik `index.html` i wklej do niego następujący kod:
 <!DOCTYPE html>
 <html>
    <head>
+      <meta charset="UTF-8">
       <title>Girls.JS - Poznan</title>
    </head>
    <body>
-      <h1>Hello, Girls.JS!</h1>
+      <h1>Let's make some magic here!</h1>
    </body>
 </html>
 ```
@@ -43,7 +44,7 @@ Zapisz plik `style.css` i odśwież Twój podgląd pliku `index.html` w przeglą
 
 ### Plik JavaScript
 
-W swoim folderze stwórz kolejny folder, tym razem o nazwie `js`. W nim utwórz plik `app.js`. To tutaj będziemy zapisywać nasz cały kod JavaScript, dzięki któremu na naszej stronie będzie się działa magia ;\) Aby podłączyć nasz skrypt do strony w HTML, przed zamknięciem znacznika &lt;/body&gt; wklej następującą linijkę:
+W swoim folderze stwórz kolejny folder, tym razem o nazwie `js`. W nim utwórz plik `app.js`. To tutaj będziemy zapisywać nasz cały kod JavaScript, dzięki któremu na naszej stronie będzie się działa magia ;\) Aby podłączyć nasz skrypt do strony w HTML, przed zamknięciem znacznika `</body>` wklej następującą linijkę:
 
 `<script src="js/app.js"></script>`
 

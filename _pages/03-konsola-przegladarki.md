@@ -13,9 +13,9 @@ Twoja wiadomość powinna się wyświetlić pod spodem. Teraz wpisz `console.log
 
 Właśnie wykonałaś swoje pierwsze operacje w JavaScript!
 
-To, co wpisujesz bezpośrednio z konsoli \(z poziomu przeglądarki\), nie zostanie zapisane. Jednak jest to bardzo przydatne, gdy chcemy sprawdzić jakieś wartości np. zmiennych. Kiedy chcemy, by coś cały czas było pokazywane w konsoli, będziemy musieli wprowadzić kod w naszym pliku JavaScript, a potem sprawdzić konsolę. Konsola jest bardzo ważnym narzędziem przy pracy z kodem. To w niej będziemy sprawdzać, czy dobrze przypisałyśmy wartości do zmiennych, czy nasze funkcje dobrze działają, itd. Ale najpierw - treść strony!
+To, co wpisujesz bezpośrednio z konsoli \(z poziomu przeglądarki\), nie zostanie zapisane. Jednak jest to bardzo przydatne, gdy chcemy sprawdzić jakieś wartości np. zmiennych. Kiedy chcemy, by coś cały czas było pokazywane w konsoli, będziemy musiały wprowadzić kod w naszym pliku JavaScript, a potem sprawdzić konsolę. Konsola jest bardzo ważnym narzędziem przy pracy z kodem. To w niej będziemy sprawdzać, czy dobrze przypisałyśmy wartości do zmiennych, czy nasze funkcje dobrze działają, itd. Ale najpierw - treść strony!
 
-Przejdźmy teraz do zakładki "Elements". Możesz tu zobaczyć całą strukturę swojej strony, czyli jej cały kod HTML oraz CSS. HTML odpowiada na szkielet naszej strony, tzn. informuje przeglądarkę, jakie elementy mają znaleźć się na stronie \(np. nagłówki, obrazki, bloki tekstu\). Z kolei CSS odpowiada za wygląd elementów, to reguły CSS powiedzą przeglądarce, np. jaki kolor ma mieć nagłówek.
+Przejdźmy teraz do zakładki "Elements". Możesz tu zobaczyć całą strukturę swojej strony, czyli jej cały kod HTML oraz CSS. HTML odpowiada na szkielet naszej strony, tzn. informuje przeglądarkę, jakie elementy mają znaleźć się na stronie \(np. nagłówki, obrazki, bloki tekstu\). Z kolei CSS odpowiada za wygląd elementów. To reguły CSS powiedzą przeglądarce, np. jaki kolor ma mieć nagłówek.
 
 ![](/poznan/assets/elements.png)
 
@@ -23,7 +23,7 @@ Kliknij prawym przyciskiem myszy w dowolny element strony i wybierz "Zbadaj". Mo
 
 ![](/poznan/assets/code-part.png)
 
-W tym miejscu powinnyście też znaleźć zakładkę "Styles" gdzie znajdziecie wszystkie style elementu który właśnie zaznaczyłyście. 
+W tym miejscu powinnyście też znaleźć zakładkę "Styles" gdzie znajdziecie wszystkie style elementu, który właśnie zaznaczyłyście. 
 
 ![](/poznan/assets/styles.png)
 

@@ -4,7 +4,7 @@ layout: post
 ---
 
 
-GIT to narzędzie do kontrolowania zmian w projekcie.  Tworzy on historię i umożliwia sprawną współpracę między wieloma programistami. By korzystać z GITa warto poznań kilka pojęć:
+GIT to narzędzie do kontrolowania zmian w projekcie.  Tworzy on historię i umożliwia sprawną współpracę między wieloma programistami. By korzystać z GITa warto poznać kilka pojęć:
 
 **terminal** - aplikacja tekstowa służąca do przeglądania, obsługi i operowania plikami na Twoim komputerze. Jak go uruchomić?
 
@@ -34,11 +34,11 @@ Linux: Aplikacje → Akcesoria → Terminal
 
 * **git add origin adres\_repozytorium**, np. [https://github.com/username/moje-repozytorium.git](https://github.com/username/moje-repozytorium.git) - ustawia konkretny adres zdalnego repozytorium jako główne repozytorium
 
-* **git push origin master** - wysłanie zmian do branacha zdalnego
+* **git push origin master** - wysyła zmiany do brancha zdalnego
 
 * **git checkout nazwa\_brancha** - zmienia aktywny branch na wybrany przez użytkownika
 
-* **git pull** - pobranie zmian ze zdalnego repozytorium
+* **git pull** - pobiera zmiany ze zdalnego repozytorium
 
 ### Zadanie:
 
