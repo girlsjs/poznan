@@ -40,6 +40,12 @@ Linux: Aplikacje → Akcesoria → Terminal
 
 * **git pull** - pobiera zmiany ze zdalnego repozytorium
 
+### Autentykacja na Github
+
+* **Obecnie** potrzebujemy wygenerować token do zalogowania się, nie możemy już logować się hasłem z terminala jak wcześniej.
+
+[Zobacz tutaj instrukcję krok po kroku](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+
 ### Zadanie:
 
 1. Zainstaluj na swoim komputerze GITa zgodnie z instrukcją na stronie:[ https://git-scm.com/book/pl/v1/Pierwsze-kroki-Instalacja-Git](https://git-scm.com/book/pl/v1/Pierwsze-kroki-Instalacja-Git).
